@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SB_AnaMenu</class>
+ <widget class="QMainWindow" name="SB_AnaMenu">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>477</width>
+    <height>239</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Soru Bankasi</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>477</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuIslem">
+    <property name="title">
+     <string>Islem</string>
+    </property>
+    <addaction name="actionYeni_Soru_Ekle"/>
+    <addaction name="actionSoru_Sec"/>
+   </widget>
+   <addaction name="menuIslem"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionYeni_Soru_Ekle">
+   <property name="text">
+    <string>Yeni Soru Ekle</string>
+   </property>
+  </action>
+  <action name="actionSoru_Sec">
+   <property name="text">
+    <string>Soru Sec</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
